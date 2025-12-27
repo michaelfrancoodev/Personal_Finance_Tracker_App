@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base App Theme -->
+    <style name="Theme.PersonalFinanceTracker" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/splash_background</item>
+    </style>
+
+    <!-- Splash Screen Theme -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- Splash screen background color -->
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+
+        <!-- Splash screen icon (your app icon) -->
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+
+        <!-- Icon background color -->
+        <item name="windowSplashScreenIconBackgroundColor">@color/splash_icon_bg</item>
+
+        <!-- Splash duration (1 second) -->
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+
+        <!-- Theme to use after splash -->
+        <item name="postSplashScreenTheme">@style/Theme.PersonalFinanceTracker</item>
+    </style>
+</resources>
